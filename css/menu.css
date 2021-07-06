@@ -4,8 +4,10 @@
     /* position: fixed; TROUBLE */
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+    /* left: 0;
+    right: 0; */
+    width: 100%;
+    box-sizing: border-box;
     height: 92px;
     padding: 0px 40px 0px 40px;
     box-shadow: rgb(0 0 0 / 13%) 0 4px 16px;

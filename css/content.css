@@ -1,3 +1,7 @@
+.content {
+    overflow: hidden;
+}
+
 .content__cover {
     display: flex;
     height: 100vh;
