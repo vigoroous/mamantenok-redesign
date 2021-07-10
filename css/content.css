@@ -22,7 +22,7 @@
     margin-right: 20px;
 }
 
-.content__cover-text-wrap {}
+/* .content__cover-text-wrap {} */
 
 .content__cover-text-title {
     font-size: 42px;
@@ -42,7 +42,7 @@
     margin-bottom: 35px;
 }
 
-.content__cover-button-wrap {}
+/* .content__cover-button-wrap {} */
 
 .content__contact-button {
     display: inline-block;
@@ -95,4 +95,24 @@
     transform: skew( 30deg, 0);
     transform-origin: bottom left;
     background-image: url(https://static.tildacdn.com/lib/unsplash/1791d13b-f6fb-d40a-8ea8-9fb4496151cb/photo.jpg);
+}
+
+.content__title-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.content__title-large {
+    display: inline;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.23;
+    color: #000;
+    padding-top: 8px;
+    padding-bottom: 3px;
 }

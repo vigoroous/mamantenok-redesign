@@ -1,3 +1,15 @@
 body {
     margin: 0;
 }
+
+.rec_pt_105 {
+    padding-top: 105px;
+}
+
+.rec_pb_30 {
+    padding-bottom: 30px;
+}
+
+.rec_gray {
+    background-color: #ebebeb;
+}
