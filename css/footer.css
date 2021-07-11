@@ -1,0 +1,18 @@
+.footer {}
+
+.footer__copyright-wrap {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer__copyright {
+    display: inline-block;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding-top: 22px;
+    padding-bottom: 6px;
+}

@@ -10,11 +10,13 @@
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!--styles-->
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/menu.css">
     <link rel="stylesheet" href="/css/content.css">
+    <link rel="stylesheet" href="/css/content_mobile.css">
+    <link rel="stylesheet" href="/css/footer.css">
 </head>
 
 <body>
@@ -120,7 +122,7 @@
                     </div>
                 </div>
                 <div class="content__cover-button-wrap">
-                    <a class="content__contact-button" href="#">Связаться</a>
+                    <a class="content__contact-button" href="#contact">Связаться</a>
                 </div>
             </div>
             <div class="content__cover-image-wrap">
@@ -162,7 +164,7 @@
                     <br><br>
                     В нашем клубе есть индивидуальные и групповые занятия для детей дошкольного возраста, курсы
                     психологического направления на развитие личности детей и взрослых, а также
-                    <a class="content__text-link">дистанционные курсы</a> для
+                    <a class="content__text-link" href="/courses">дистанционные курсы</a> для
                     детей дошкольного возраста. Для взрослых и детей предусмотрены индивидуальные сессии с психологом.
                     <br><br>
                     Любое занятие для детей дошкольного возраста проходит в игровой форме с опорой на наглядный
@@ -184,8 +186,55 @@
                 </div>
             </div>
         </div>
+        <div id="contact" class="rec_pt_105 rec_pb_45">
+            <div class="content__title-wrap">
+                <div class="content__title">Связаться с нами</div>
+            </div>
+            <div class="content__descr-wrap">
+                <div class="content__descr">
+                    Наш менеджер с радостью проконсультирует Вас по любому интересующему вопросу.<br>
+                    Оставьте заявку и мы свяжемся с Вами в ближайшее время!
+                </div>
+            </div>
+        </div>
+        <div class="rec_pb_150">
+            <div class="content__form-wrap">
+                <form class="content__form">
+                    <div class="content__success-msg"></div>
+                    <div class="content__input-group">
+                        <div class="content__input-title">E-mail</div>
+                        <input class="content__input" placeholder="mycompany@co.com">
+                        <div class="contnet__input-err"></div>
+                    </div>
+                    <div class="content__input-group">
+                        <div class="content__input-title">Имя</div>
+                        <input class="content__input" placeholder="Сергей Иванов">
+                    </div>
+                    <div class="content__input-group">
+                        <div class="content__input-title">Телефон</div>
+                        <input class="content__input" placeholder="+1234 567 8901">
+                    </div>
+                    <div class="content__error-msg"></div>
+                    <div class="content__submit-wrap">
+                        <button type="submit" class="content__submit-btn">Отправить</button>
+                    </div>
+                </form>
+                <div class="content__form-bottom-text">
+                    Нажимая на кнопку, вы соглашаетесь с
+                    <a class="content__policy-link" href="/policy">
+                        условиями обработки персональных данных
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer class="foot"></footer>
+    <footer class="footer">
+        <div class="rec_pt_45 rec_pb_45 rec_dark-gray">
+            <div class="footer__copyright-wrap">
+                <div class="footer__copyright">© Мамантёнок 2021</div>
+            </div>
+        </div>
+    </footer>
     <script type="text/javascript" src="/js/menu.js"></script>
     <script type="text/javascript" src="/js/content_rec.js"></script>
 </body>
